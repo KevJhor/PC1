@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PC1</string>
+    <string name="L1"></string>
+    <string name="L2"></string>
+    <string name="L3"></string>
+    <string name="Button1">Calcular</string>
+    <string name="NotaF"></string>
+    <string name="Resultado"></string>
+</resources>
