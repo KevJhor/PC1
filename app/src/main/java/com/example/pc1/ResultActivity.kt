@@ -18,12 +18,17 @@ class ResultActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textFinal)
         textView.text = message
 
-
-
-
-
         val textViewR = findViewById<TextView>(R.id.resultFinal)
-        textViewR.text = "Aprobado"
+        val numericValue = message?.toDouble()
+        if (numericValue != null && numericValue > 10.5) {
+            textViewR.text = "Aprobado"
+        } else {
+            textViewR.text = "Desaprobado"
+        }
+
+
+
+
 
 
 
